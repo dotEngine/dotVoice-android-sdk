@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="DotVoice"
+        android:textColor="#000"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dfdfdf"
+        />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="mId : 888888"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dfdfdf"
+        />
+
+    <EditText
+        android:id="@+id/room_id"
+        android:hint="请输入房间名字"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dfdfdf"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/join_room"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#ab0ef4e5"
+            android:clickable="true"
+            android:text="加入房间"
+            android:textColor="#FFF"
+            />
+
+        <Button
+            android:id="@+id/want_speak"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#ab0ef4e5"
+            android:clickable="true"
+            android:text="上麦"
+            android:textColor="#FFF"
+            />
+
+        <Button
+            android:id="@+id/leave_room"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#ab0ef4e5"
+            android:clickable="true"
+            android:text="离开房间"
+            android:textColor="#FFF"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/muted_local"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#ab0ef4e5"
+            android:clickable="true"
+            android:text="本地静音/不静音"
+            android:textColor="#FFF"
+            />
+
+        <Button
+            android:id="@+id/muted_remote"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="#ab0ef4e5"
+            android:clickable="true"
+            android:text="远程静音/不静音"
+            android:textColor="#FFF"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/earpiece"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#ab0ef4e5"
+            android:clickable="true"
+            android:text="听筒"
+            android:textColor="#FFF"
+            />
+
+        <Button
+            android:id="@+id/phone_on"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="#ab0ef4e5"
+            android:clickable="true"
+            android:text="扬声器"
+            android:textColor="#FFF"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
